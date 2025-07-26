@@ -145,12 +145,12 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 
 ### 📊 Explore the Interactive Dashboards
 All visualisations were built using **Tableau Public**.  
-👉 [**Click here to view the full dashboards**]https://public.tableau.com/app/profile/juan.correa./viz/LMS_17535363056580/EngagementLearningBehaviourAnalysis#1
+👉 [**Click here to view the full dashboards**](https://public.tableau.com/app/profile/juan.correa./viz/LMS_17535363056580/EngagementLearningBehaviourAnalysis#1)
 
 ---
 
 ## ✅ Overview
-This project analyzes **Learning Management System (LMS)** data to monitor training compliance, engagement patterns, and employee performance across teams and roles.
+This project analyses **Learning Management System (LMS)** data to monitor training compliance, engagement patterns, and employee performance across teams and roles.
 
 Dashboards were built using **Tableau Public** with data on enrollments, last access dates, skill scores, and device usage.
 
