@@ -111,8 +111,7 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 ---
 
 ## 🛠️ Tools Used
-- **Power BI** → Interactive dashboards for compliance and engagement insights.
-- **Tableau Public** → Visualization for trends and breakdowns.
+- **Tableau Public** → Visualisation for trends and breakdowns.
 - **Python (Pandas, NumPy)** → Data cleaning and automation.
 - **Google Colab** → Notebook-based pipeline for data prep.
 
@@ -144,7 +143,9 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 
 ## 📊 2. LMS Dashboard Analysis
 
-![Dashboard Preview]<img width="532" height="511" alt="image" src="https://github.com/user-attachments/assets/c1fb40ef-3946-41af-9a53-fdeaca88ea9c" />
+### 📊 Explore the Interactive Dashboards
+All visualisations were built using **Tableau Public**.  
+👉 [**Click here to view the full dashboards**]https://public.tableau.com/app/profile/juan.correa./viz/LMS_17535363056580/EngagementLearningBehaviourAnalysis#1
 
 ---
 
