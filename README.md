@@ -139,7 +139,7 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 
 ### 📊 Explore the Interactive Dashboards
 All visualisations were built using **Tableau Public**.  
-👉 [**Click here to view the full dashboards**](https://public.tableau.com/app/profile/juan.correa./viz/LMS_17535363056580/EngagementLearningBehaviourAnalysis#1)
+👉 [**Click here to view the full dashboards**](https://public.tableau.com/app/profile/juan.correa./viz/LMS-RychtenshaneCommunityHousingGroupRCHG/EngagementLearningBehaviourAnalysis)
 
 ---
 
