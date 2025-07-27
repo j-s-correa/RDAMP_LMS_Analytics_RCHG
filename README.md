@@ -404,12 +404,12 @@ Our team divided responsibilities based on expertise and interest to ensure effi
 - **Data Cleaning & Prep:** Excel/Python
 
 ## 📂 Additional Files
-- **[RCHG.AdditionalFiles.zip]**(https://github.com/user-attachments/files/21456631/RCHG.AdditionalFiles.zip)
+- **[RCHG.AdditionalFiles.zip](https://github.com/user-attachments/files/21456631/RCHG.AdditionalFiles.zip)**
 
 ---
 
 ### 🔗 Reminder: Explore Full Interactive Dashboards
-All insights and visualizations are available in the interactive Tableau dashboard:  
+All insights and visualisations are available in the interactive Tableau dashboard:  
 👉 [**Click here to view the complete dashboards**](https://public.tableau.com/app/profile/juan.correa./viz/LMS-RychtenshaneCommunityHousingGroupRCHG/EngagementLearningBehaviourAnalysis)
 
 
