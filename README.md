@@ -66,6 +66,44 @@ Prepare a clean, standardised LMS dataset enriched with employee details, ready 
 ---
 
 ## 2. Dashboard Components
+
+<img width="2084" height="1112" alt="image" src="https://github.com/user-attachments/assets/de35dee8-bbc9-494a-a222-42a47812a6b3" />
+
+This project uses a Star Schema data model to support scalable, flexible, and performant analytics within Power BI. At the center of the model lies the fact_training table, surrounded by well-structured dimension tables that enrich the context of training activities.
+
+### Fact Table
+
+**fact_training** : Captures detailed training records, including completions, feedback ratings, course metadata, skill scores, and accessibility indicators.
+
+### Dimension Tables
+
+**dim_employee** : Contains employee metadata such as role, location, join date, and a foreign key to dim_team.
+
+**dim_team** : Stores unique team names and IDs, supporting hierarchical filtering and drilldown.
+
+**dim_course** : Provides information about course titles, categories, and providers.
+
+**dim_date** : A classic date dimension enabling time-series analytics across enrollment, completion, and access dates.
+
+### Relationships
+
+- fact_training[EmployeeID] → dim_employee[EmployeeID]
+
+- fact_training[CourseID] → dim_course[CourseID]
+
+- fact_training[CompletionDate], EnrollmentDate, LastAccessDate → dim_date[Date]
+
+- dim_employee[TeamID] → dim_team[TeamID]
+
+All relationships follow a one-to-many structure (1:*), ensuring accurate filtering and slicing across all visuals and KPIs.
+
+This layout enables multi-dimensional slicing across Role, Location, Team, Course Category, and Time.
+
+Filters and slicers in the dashboard are sourced from dimension tables, ensuring clean propagation of filters to the fact_training table.
+
+---
+
+## 3. Dashboard Components
 The dashboards are designed to provide insights into **Compliance & Training Summary**, **Performance Analysis**, and **Engagement Patterns**.
 
 ---
@@ -136,7 +174,7 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 ---
 
 
-## 2. LMS Dashboard Analysis
+## 4. LMS Dashboard Analysis
 
 ### Explore the Interactive Dashboards
 All visualisations were built using **Tableau Public**.  
