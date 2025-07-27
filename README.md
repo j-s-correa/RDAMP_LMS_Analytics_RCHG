@@ -375,13 +375,14 @@ Our team divided responsibilities based on expertise and interest to ensure effi
 - *Evidence:* Screenshots of team discussions and boards are included.
 
 <img width="781" height="535" alt="image" src="https://github.com/user-attachments/assets/5c1b54c5-b53d-4c69-bbeb-22f8db31fc81" />
-<img width="769" height="453" alt="image" src="https://github.com/user-attachments/assets/c8a84b51-6789-44ad-ab14-7498d06906b7" />
+<img width="795" height="458" alt="image" src="https://github.com/user-attachments/assets/ce47797b-0d70-41c9-8e77-37bdc8a9ae0f" />
+
 
 ---
 
 ### **Challenges Faced**
 - **Data Gaps:** Missing dates required careful handling through custom imputation logic.
-- **Visualization Clarity:** Accessibility Overview visuals needed redesign for better interpretability.
+- **Visualisation Clarity:** Accessibility Overview visuals need redesign for better interpretability.
 - **Time Constraints:** Balancing dashboard design and statistical analysis under tight deadlines.
 
 **Resolution:** Frequent check-ins, collaborative problem-solving, and shared resources.
