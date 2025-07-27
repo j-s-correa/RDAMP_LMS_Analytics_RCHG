@@ -76,7 +76,7 @@ Prepare a clean, standardised LMS dataset enriched with employee details, ready 
 
 <img width="2084" height="1112" alt="image" src="https://github.com/user-attachments/assets/de35dee8-bbc9-494a-a222-42a47812a6b3" />
 
-This project uses a Star Schema data model to support scalable, flexible, and performant analytics within Power BI. At the center of the model lies the fact_training table, surrounded by well-structured dimension tables that enrich the context of training activities.
+This project uses a Star Schema data model to support scalable, flexible, and performant analytics within Power BI. At the centre of the model lies the fact_training table, surrounded by well-structured dimension tables that enrich the context of training activities.
 
 ### Fact Table
 
@@ -350,7 +350,7 @@ Our team divided responsibilities based on expertise and interest to ensure effi
 - Tasks were allocated considering individual strengths and learning goals.
 - Statistical modelling was assigned to Aqsa due to prior experience with analytics.
 - Swathik and Olajide collaborated on designing a robust data model.
-- Juan led visualization and storytelling using Tableau Public.
+- Juan led visualisation and storytelling using Tableau Public.
 
 ---
 
@@ -358,12 +358,12 @@ Our team divided responsibilities based on expertise and interest to ensure effi
 - **Aqsa:** Delivered advanced statistical models (SARIMA, regression, ANOVA) with strong analytical interpretation.
 - **Swathik:** Built a scalable **star schema**, enabling accurate and performant dashboards.
 - **Juan:** Created interactive Tableau dashboards, integrating multiple KPIs into an engaging data story.
-- **Olajide:** Ensured data integrity, validated relationships, and supported modeling for better analysis.
+- **Olajide:** Ensured data integrity, validated relationships, and supported modelling for better analysis.
 
 ---
 
 ### **Weaknesses & Gaps**
-- Limited prior exposure to **predictive modeling in business contexts**, requiring extra learning time.
+- Limited prior exposure to **predictive modelling in business contexts**, requiring extra learning time.
 - Tableau story-building was challenging initially, requiring iterations for clarity.
 
 ---
@@ -374,7 +374,6 @@ Our team divided responsibilities based on expertise and interest to ensure effi
   - **Slack** – Team discussions and updates.
 - *Evidence:* Screenshots of team discussions and boards are included.
 
-<img width="1190" height="747" alt="image" src="https://github.com/user-attachments/assets/844e3e28-a71f-43dd-b654-744355f635f2" />
 <img width="781" height="535" alt="image" src="https://github.com/user-attachments/assets/5c1b54c5-b53d-4c69-bbeb-22f8db31fc81" />
 <img width="769" height="453" alt="image" src="https://github.com/user-attachments/assets/c8a84b51-6789-44ad-ab14-7498d06906b7" />
 
