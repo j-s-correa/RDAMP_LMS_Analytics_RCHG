@@ -273,7 +273,7 @@ This suggests a consistent performance level across departments, with no particu
 
 ## Files in Repository
 A new file has been added to the repository to support the updated dashboards and calculations.
-[LMS.Dashboard.Report.docx](https://github.com/user-attachments/files/21451045/LMS.Dashboard.Report.docx)
+[LMS Dashboard Analysis Report](LMS.Dashboard.Report)
 
 ---
 
