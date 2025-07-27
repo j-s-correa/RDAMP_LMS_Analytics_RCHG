@@ -157,15 +157,6 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 <img width="532" height="511" alt="image" src="https://github.com/user-attachments/assets/6d3a6366-11d8-4800-9de6-2cc4a688b85a" />
 
 
----
-
-## Files in Repository
-- `Final_Enriched_LMS_Dataset.xlsx` – Cleaned dataset for Power BI.
-[Final_Enriched_LMS_Dataset.xlsx](https://github.com/user-attachments/files/21448364/Final_Enriched_LMS_Dataset.xlsx)
-
-
----
-
 ## How to Use
 1. Download the **cleaned dataset** from this repo.
 2. Open the **Power BI report** or **Tableau workbook**.
@@ -341,8 +332,17 @@ This suggests a consistent performance level across departments, with no particu
 - **Dataset:** LMS Employee Training Data
 - **Data Cleaning & Prep:** Excel/Python
 
-## Files in Repository
-[LMS Dashboard Analysis Report](LMS.Dashboard.Report.docx) file has been added to the repository to support the updated dashboards and calculations.
+## 📂 Additional Files
+- [`LMS.Dashboard.Report.zip`](https://github.com/user-attachments/files/21456474/LMS.Dashboard.Report.zip) – **Additional support documentation**, including the full dashboard report and related resources.
+
+---
+
+### 🔗 Reminder: Explore Full Interactive Dashboards
+All insights and visualizations are available in the interactive Tableau dashboard:  
+👉 [**Click here to view the complete dashboards**](https://public.tableau.com/app/profile/juan.correa./viz/LMS-RychtenshaneCommunityHousingGroupRCHG/EngagementLearningBehaviourAnalysis)
+
+
+
 
 ---
 
