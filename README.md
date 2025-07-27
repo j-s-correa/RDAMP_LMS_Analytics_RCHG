@@ -8,7 +8,7 @@ This project focuses on cleaning and preparing an LMS dataset enriched with empl
 ## 🧹 1. Data Cleaning and Preparation Report
 
 ### **Project Objective**
-Prepare a clean, standardized LMS dataset enriched with employee details, ready for Power BI dashboards and analytics.
+Prepare a clean, standardised LMS dataset enriched with employee details, ready for Power BI dashboards and analytics.
 
 ---
 
@@ -28,7 +28,7 @@ Prepare a clean, standardized LMS dataset enriched with employee details, ready 
 - **Removed Duplicates**:
   - Eliminated duplicate rows to maintain data integrity.
 
-#### **3. Date Standardization**
+#### **3. Date Standardisation**
 - Converted all relevant columns to `datetime` format:
   - `EnrollmentDate`, `CompletionDate`, `LastAccessDate`, `JoinedDate`.
 - Applied consistent **DD-MM-YYYY** format.
@@ -169,6 +169,10 @@ Dashboards were built using **Tableau Public** with data on enrollments, last ac
     
 <img width="890" height="728" alt="image" src="https://github.com/user-attachments/assets/2ba8796b-2665-40a9-905d-e7b719cf4f1e" />
 <img width="881" height="735" alt="image" src="https://github.com/user-attachments/assets/a1bb997b-10b8-464a-b8ff-53852cb26d91" />
+
+> **Note:** Even after creating new aggregated columns in Python and Excel during earlier steps, we decided to compute the **Completed and Mandatory** ratio directly in Tableau. This approach was chosen for the quicker calculation of the indicator by leveraging Tableau’s native aggregation, rather than relying on pre-processed data.
+
+<img width="1385" height="841" alt="image" src="https://github.com/user-attachments/assets/c224116b-29be-46c4-bc5d-9dcf3a04e124" />
   
 ### 2. Performance Analysis
 - **SkillScore Distribution** (Scale: 1–5)
