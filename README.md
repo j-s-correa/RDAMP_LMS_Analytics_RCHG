@@ -304,7 +304,7 @@ This suggests a consistent performance level across departments, with no particu
 - ANOVA confirms **uniform skill performance across teams**, supporting fairness and consistent training delivery.
 
 ---
-### 5. Accessibility Overview**
+### 5. Accessibility Overview
 
 ### **Performance of Users Who Accessed Training with a Screen Reader**
 - **Average Score (Yes): 81.08**
@@ -319,7 +319,7 @@ This suggests a consistent performance level across departments, with no particu
 ### **Feedback Scores vs. Accessibility Usage**
 - **Average Feedback (Yes): 3.8**
 - **Average Feedback (No): 4.1**
-- **Observation:** Screen reader users provided slightly lower feedback, which may suggest improvements are needed for accessibility experience.
+- **Observation:** Screen reader users provided slightly lower feedback, which may suggest improvements are needed for the accessibility experience.
 
 ---
 
@@ -334,6 +334,7 @@ This suggests a consistent performance level across departments, with no particu
 - The slight difference (3.18 vs 3.16) is **statistically negligible**, meaning accessibility support does **not negatively impact user experience**.
 - Since the scale is **1–5**, these values show an **average experience**, signaling possible **improvement opportunities** in course design for all users.
 
+<img width="881" height="716" alt="image" src="https://github.com/user-attachments/assets/17cd671b-a555-4d68-9339-0af3431e5c46" />
 
 ## Tech Stack
 - **Visualization Tool:** Tableau Public
