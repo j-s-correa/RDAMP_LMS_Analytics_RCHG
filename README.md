@@ -272,7 +272,7 @@ This suggests a consistent performance level across departments, with no particu
 - **Data Cleaning & Prep:** Excel/Python
 
 ## Files in Repository
-[LMS Dashboard Analysis Report](LMS.Dashboard.Report) file has been added to the repository to support the updated dashboards and calculations.
+[LMS Dashboard Analysis Report](LMS.Dashboard.Report.docx) file has been added to the repository to support the updated dashboards and calculations.
 
 ---
 
