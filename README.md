@@ -205,8 +205,13 @@ Dashboards were built using **Tableau Public** with data on enrollments, last ac
 ---
 
 ### 4.Statistical Insights
+
+To extract meaningful insights from the training and performance data, we applied the following statistical techniques
+Each technique was selected to answer a specific business question using the most statistically appropriate and interpretable method.
+
 - **Forecasting: Predicting Training Completions using SARIMA:**
-We applied Seasonal ARIMA (SARIMA) models to forecast future training completions based on quarterly historical data.
+**Purpose**: To forecast future training completions based on historical seasonal patterns.  
+**Justification**: The data exhibits quarterly seasonality. SARIMA (Seasonal ARIMA) is well-suited for modeling and predicting time series data with trend and seasonal components.
 
   - **Next Quarter Forecast** (Q3 2025):
     - **26.07** completions are expected.
@@ -220,9 +225,15 @@ We applied Seasonal ARIMA (SARIMA) models to forecast future training completion
     | Q1 2026       | 14.85                  |
   
   The downward trend after Q4 2025 may warrant proactive measures to re-engage learners or investigate training availability.
+  **SARIMA Forecast for Next Quarter**  
+![SARIMA Forecast - Next Quarter](Quarterly_Training_Completions_Forecast_for_Next_Quarter.png)
+
+**SARIMA Forecast for Next 3 Quarters**  
+![SARIMA Forecast - Next 3 Quarters](Quarterly_Training_Completions_with_SARIMA_Forecast.png)
 
 - **Regression Analysis: Impact of Training Duration and Frequency on Performance:**
-We used a linear regression model to evaluate how training characteristics affect performance scores.
+**Purpose**: To quantify the relationship between training attributes (duration and frequency) and employee performance scores.  
+**Justification**: Linear regression allows us to model the **magnitude and direction of influence** each factor has on performance, and is ideal when predicting a continuous outcome based on numeric predictors.
 
   - **Intercept**: `2.98` (baseline performance score)
   - **Duration Coefficient**: `+0.0006`
@@ -237,7 +248,8 @@ We used a linear regression model to evaluate how training characteristics affec
   **Recommendation**: Focus on improving the quality and relevance of courses rather than increasing volume.
 
 - **ANOVA: Comparing Performance Across Departments:**
-We conducted a one-way ANOVA test to assess whether mean performance scores differ significantly across departments (teams).
+**Purpose**: To test whether there are statistically significant differences in average performance scores across multiple departments (teams).  
+**Justification**: ANOVA is the standard statistical method for comparing means across more than two independent groups, making it suitable for assessing inter-departmental disparities.
 
   - **F-statistic**: `0.5622`
   - **P-value**: `0.7290`
