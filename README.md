@@ -334,13 +334,79 @@ This suggests a consistent performance level across departments, with no particu
 
 <img width="881" height="716" alt="image" src="https://github.com/user-attachments/assets/17cd671b-a555-4d68-9339-0af3431e5c46" />
 
+## **5. Team Collaboration & Project Reflection**
+
+### **Team Roles & Division of Work**
+Our team divided responsibilities based on expertise and interest to ensure efficient execution and quality outcomes:
+
+| **Team Member**      | **GitHub Handle**    | **Responsibilities**                                                                 |
+|----------------------|----------------------|---------------------------------------------------------------------------------------|
+| **Aqsa Shabbir**    | `AqsaShabir12`      | Performed **Statistical Insights**: SARIMA forecasting, Regression Analysis, ANOVA. |
+| **Swathik**         | `swathik-07`        | Designed and implemented **Data Modeling & Architecture** (Star Schema).            |
+| **Juan Correa**     | `j-s-correa`        | Developed **Dashboards**: Compliance, Performance, Engagement, Accessibility views. |
+| **Olajide**         | `olajide`           | Assisted in **Data Modeling and Data Validation** for schema consistency.           |
+
+**Collaboration Approach:**  
+- Tasks were allocated considering individual strengths and learning goals.
+- Statistical modelling was assigned to Aqsa due to prior experience with analytics.
+- Swathik and Olajide collaborated on designing a robust data model.
+- Juan led visualization and storytelling using Tableau Public.
+
+---
+
+### **Strengths & Contributions**
+- **Aqsa:** Delivered advanced statistical models (SARIMA, regression, ANOVA) with strong analytical interpretation.
+- **Swathik:** Built a scalable **star schema**, enabling accurate and performant dashboards.
+- **Juan:** Created interactive Tableau dashboards, integrating multiple KPIs into an engaging data story.
+- **Olajide:** Ensured data integrity, validated relationships, and supported modeling for better analysis.
+
+---
+
+### **Weaknesses & Gaps**
+- Limited prior exposure to **predictive modeling in business contexts**, requiring extra learning time.
+- Tableau story-building was challenging initially, requiring iterations for clarity.
+
+---
+
+### **Team Workflow & Communication**
+- **Methodology:** Agile approach with short sprints and weekly reviews.
+- **Collaboration Tools:**  
+  - **Slack** – Team discussions and updates.
+- *Evidence:* Screenshots of team discussions and boards are included.
+
+<img width="1190" height="747" alt="image" src="https://github.com/user-attachments/assets/844e3e28-a71f-43dd-b654-744355f635f2" />
+<img width="781" height="535" alt="image" src="https://github.com/user-attachments/assets/5c1b54c5-b53d-4c69-bbeb-22f8db31fc81" />
+<img width="769" height="453" alt="image" src="https://github.com/user-attachments/assets/c8a84b51-6789-44ad-ab14-7498d06906b7" />
+
+---
+
+### **Challenges Faced**
+- **Data Gaps:** Missing dates required careful handling through custom imputation logic.
+- **Visualization Clarity:** Accessibility Overview visuals needed redesign for better interpretability.
+- **Time Constraints:** Balancing dashboard design and statistical analysis under tight deadlines.
+
+**Resolution:** Frequent check-ins, collaborative problem-solving, and shared resources.
+
+---
+
+### **Lessons Learned**
+- **Clear Data Architecture is Key:** A solid schema accelerates dashboard delivery.
+- **Communication Matters:** Regular syncs prevent blockers from escalating.
+- **Visualisation as a Story:** Insights need a narrative to create impact for decision-makers.
+
+**What We’d Do Differently:**  
+- Begin predictive modeling earlier for deeper validation.
+- Standardise column naming conventions at the start to reduce rework.
+
+
 ## Tech Stack
 - **Visualization Tool:** Tableau Public
 - **Dataset:** LMS Employee Training Data
 - **Data Cleaning & Prep:** Excel/Python
 
 ## 📂 Additional Files
-- [`LMS.Dashboard.Report.zip`](https://github.com/user-attachments/files/21456474/LMS.Dashboard.Report.zip) – **Additional support documentation**, including the full dashboard report and related resources.
+- [`LMS.Dashboard.Report.zip`][RCHG.AdditionalFiles.zip](https://github.com/user-attachments/files/21456631/RCHG.AdditionalFiles.zip)
+ – **Additional support documentation**, including the full dashboard report and related resources.
 
 ---
 
