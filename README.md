@@ -113,9 +113,10 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 ## Tools Used
 - **Tableau Public** → Visualisation for trends and breakdowns.
 - **Python (Pandas, NumPy)** → Data cleaning and automation.
+- **Excel** → Data cleaning and transformation.
 - **Google Colab** → Notebook-based pipeline for data prep.
 
-  <img width="532" height="511" alt="image" src="https://github.com/user-attachments/assets/6d3a6366-11d8-4800-9de6-2cc4a688b85a" />
+<img width="532" height="511" alt="image" src="https://github.com/user-attachments/assets/6d3a6366-11d8-4800-9de6-2cc4a688b85a" />
 
 
 ---
