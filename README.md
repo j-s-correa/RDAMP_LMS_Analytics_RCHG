@@ -243,7 +243,7 @@ Dashboards were built using **Tableau Public** with data on enrollments, last ac
 
 ---
 
-### 4.Statistical Insights
+### 4. Statistical Insights
 
 To extract meaningful insights from the training and performance data, we applied the following statistical techniques
 Each technique was selected to answer a specific business question using the most statistically appropriate and interpretable method.
@@ -304,6 +304,36 @@ This suggests a consistent performance level across departments, with no particu
 - ANOVA confirms **uniform skill performance across teams**, supporting fairness and consistent training delivery.
 
 ---
+### 5. Accessibility Overview**
+
+### **Performance of Users Who Accessed Training with a Screen Reader**
+- **Average Score (Yes): 81.08**
+- **Average Score (No): 80.15**
+- **Distinct Employees:**
+  - Screen Reader Users: **210**
+  - Non-Screen Reader Users: **761**
+- **Insight:** Employees using screen readers perform slightly better than those who do not, indicating accessibility support does **not hinder learning outcomes**.
+
+---
+
+### **Feedback Scores vs. Accessibility Usage**
+- **Average Feedback (Yes): 3.8**
+- **Average Feedback (No): 4.1**
+- **Observation:** Screen reader users provided slightly lower feedback, which may suggest improvements are needed for accessibility experience.
+
+---
+
+### **Feedback Scores vs. Accessibility Usage – Detailed Analysis**
+- **Avg Feedback Rating Scale:** 1 to 5 *(1 = Poor, 5 = Excellent)*
+- **Results:**
+  - Screen Reader Users (Yes): **3.18**
+  - Non-Users (No): **3.16**
+
+**Interpretation:**
+- Both groups rate training almost equally, indicating **similar satisfaction levels**.
+- The slight difference (3.18 vs 3.16) is **statistically negligible**, meaning accessibility support does **not negatively impact user experience**.
+- Since the scale is **1–5**, these values show an **average experience**, signaling possible **improvement opportunities** in course design for all users.
+
 
 ## Tech Stack
 - **Visualization Tool:** Tableau Public
