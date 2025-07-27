@@ -1,11 +1,11 @@
-# 📊 RCHG LMS Analytics Project
+# RCHG LMS Analytics Project
 
-## ✅ Project Overview
+## Project Overview
 This project focuses on cleaning and preparing an LMS dataset enriched with employee information, and building **Power BI and Tableau dashboards** to analyse compliance, training performance, and engagement patterns.
 
 ---
 
-## 🧹 1. Data Cleaning and Preparation Report
+## 1. Data Cleaning and Preparation Report
 
 ### **Project Objective**
 Prepare a clean, standardised LMS dataset enriched with employee details, ready for Power BI dashboards and analytics.
@@ -56,7 +56,7 @@ Prepare a clean, standardised LMS dataset enriched with employee details, ready 
 
 ---
 
-### ✅ **Summary of Key Changes**
+### **Summary of Key Changes**
 ✔ Binary fields standardized (**Yes/No**)  
 ✔ 15 incorrect entries corrected  
 ✔ Added metrics for course duration and anomalies  
@@ -65,7 +65,7 @@ Prepare a clean, standardised LMS dataset enriched with employee details, ready 
 
 ---
 
-## 📈 2. Dashboard Components
+## 2. Dashboard Components
 The dashboards are designed to provide insights into **Compliance & Training Summary**, **Performance Analysis**, and **Engagement Patterns**.
 
 ---
@@ -110,7 +110,7 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 - **Tableau Public** → Visualisation for trends and breakdowns.
 - **Python (Pandas, NumPy)** → Data cleaning and automation.
 - **Google Colab** → Notebook-based pipeline for data prep.
@@ -120,14 +120,14 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 
 ---
 
-## 📂 Files in Repository
+## Files in Repository
 - `Final_Enriched_LMS_Dataset.xlsx` – Cleaned dataset for Power BI.
 [Final_Enriched_LMS_Dataset.xlsx](https://github.com/user-attachments/files/21448364/Final_Enriched_LMS_Dataset.xlsx)
 
 
 ---
 
-## ✅ How to Use
+## How to Use
 1. Download the **cleaned dataset** from this repo.
 2. Open the **Power BI report** or **Tableau workbook**.
 3. Connect data → Explore dashboards.
@@ -135,22 +135,22 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 ---
 
 
-## 📊 2. LMS Dashboard Analysis
+## 2. LMS Dashboard Analysis
 
-### 📊 Explore the Interactive Dashboards
+### Explore the Interactive Dashboards
 All visualisations were built using **Tableau Public**.  
-👉 [**Click here to view the full dashboards**](https://public.tableau.com/app/profile/juan.correa./viz/LMS-RychtenshaneCommunityHousingGroupRCHG/EngagementLearningBehaviourAnalysis)
+ [**Click here to view the full dashboards**](https://public.tableau.com/app/profile/juan.correa./viz/LMS-RychtenshaneCommunityHousingGroupRCHG/EngagementLearningBehaviourAnalysis)
 
 ---
 
-## ✅ Overview
+## Overview
 This project analyses **Learning Management System (LMS)** data to monitor training compliance, engagement patterns, and employee performance across teams and roles.
 
 Dashboards were built using **Tableau Public** with data on enrollments, last access dates, skill scores, and device usage.
 
 ---
 
-## 📌 Key Dashboards & Insights
+## Key Dashboards & Insights
 
 ### 1. Compliance & Training Summary
 - **% of Completed Mandatory Courses by Team**
@@ -204,16 +204,63 @@ Dashboards were built using **Tableau Public** with data on enrollments, last ac
 
 ---
 
-## 🛠 Tech Stack
+### 4.Statistical Insights
+- **Forecasting: Predicting Training Completions using SARIMA:**
+We applied Seasonal ARIMA (SARIMA) models to forecast future training completions based on quarterly historical data.
+
+  - **Next Quarter Forecast** (Q3 2025):
+    - **26.07** completions are expected.
+    - This reflects a noticeable drop compared to prior quarters, possibly indicating decreased engagement or seasonal dips.
+
+  - **Next 3 Quarters Forecast**:
+    | Quarter       | Forecasted Completions |
+    |---------------|------------------------|
+    | Q3 2025       | 26.07                  |
+    | Q4 2025       | 36.49                  |
+    | Q1 2026       | 14.85                  |
+  
+  The downward trend after Q4 2025 may warrant proactive measures to re-engage learners or investigate training availability.
+
+- **Regression Analysis: Impact of Training Duration and Frequency on Performance:**
+We used a linear regression model to evaluate how training characteristics affect performance scores.
+
+  - **Intercept**: `2.98` (baseline performance score)
+  - **Duration Coefficient**: `+0.0006`
+  - **Course Frequency Coefficient**: `-0.0209`
+
+  - **Interpretation:**
+  - **Training Duration**:
+    > Every additional minute of training increases the performance score by 0.0006 points. This suggests that longer training sessions have a positive, though modest, impact on performance.
+  - **Course Frequency**:
+    > Surprisingly, each additional course completed decreases performance by 0.0209 points, indicating a possible effect of overtraining, burnout, or redundant content.
+  
+  **Recommendation**: Focus on improving the quality and relevance of courses rather than increasing volume.
+
+- **ANOVA: Comparing Performance Across Departments:**
+We conducted a one-way ANOVA test to assess whether mean performance scores differ significantly across departments (teams).
+
+  - **F-statistic**: `0.5622`
+  - **P-value**: `0.7290`
+
+> There is **no statistically significant difference** in performance scores across teams.  
+This suggests a consistent performance level across departments, with no particular team outperforming or underperforming significantly.
+
+## Summary
+
+- Forecasting helps identify **seasonal patterns** and anticipate future participation.
+- Regression reveals that **longer training helps**, but **course overload can hurt performance**.
+- ANOVA confirms **uniform skill performance across teams**, supporting fairness and consistent training delivery.
+
+---
+
+## Tech Stack
 - **Visualization Tool:** Tableau Public
 - **Dataset:** LMS Employee Training Data
 - **Data Cleaning & Prep:** Excel/Python
 
-## 📂 Files in Repository
+## Files in Repository
 A new file has been added to the repository to support the updated dashboards and calculations.
 [LMS.Dashboard.Report.docx](https://github.com/user-attachments/files/21451045/LMS.Dashboard.Report.docx)
 
 ---
 
-### 🔍 Next Steps
-- Add **predictive modeling** for training completion trends.
