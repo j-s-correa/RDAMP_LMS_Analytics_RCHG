@@ -1,14 +1,14 @@
 # RCHG LMS Analytics Project
 
-## ✅ Project Summary
+## Project Summary
 
 The **RCHG LMS Analytics Project** aims to monitor and improve **training compliance**, **employee engagement**, and **performance** using enriched LMS datasets. The solution involves **data cleaning, integration, and preparation**, followed by **visual analytics dashboards in Tableau** and **predictive modeling techniques** to forecast training outcomes.
 
 ### The project helps RCHG to:
-- ✅ Ensure **mandatory training compliance**.
-- ✅ Analyse **employee engagement trends**.
-- ✅ Identify **performance gaps** across teams and roles.
-- ✅ Support **accessibility goals** for inclusive learning experiences.
+- Ensure **mandatory training compliance**.
+- Analyse **employee engagement trends**.
+- Identify **performance gaps** across teams and roles.
+- Support **accessibility goals** for inclusive learning experiences.
 
 ---
 
