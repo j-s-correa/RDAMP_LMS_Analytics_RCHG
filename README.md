@@ -209,6 +209,10 @@ Dashboards were built using **Tableau Public** with data on enrollments, last ac
 - **Dataset:** LMS Employee Training Data
 - **Data Cleaning & Prep:** Excel/Python
 
+## 📂 Files in Repository
+A new file has been added to the repository to support the updated dashboards and calculations.
+[LMS.Dashboard.Report.docx](https://github.com/user-attachments/files/21451045/LMS.Dashboard.Report.docx)
+
 ---
 
 ### 🔍 Next Steps
