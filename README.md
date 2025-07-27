@@ -225,6 +225,7 @@ Each technique was selected to answer a specific business question using the mos
     | Q1 2026       | 14.85                  |
   
   The downward trend after Q4 2025 may warrant proactive measures to re-engage learners or investigate training availability.
+  
   **SARIMA Forecast for Next Quarter**  
 ![SARIMA Forecast - Next Quarter](Training_Completions_Forecast_for_Next_Quarter.png)
 
