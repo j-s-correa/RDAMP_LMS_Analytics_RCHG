@@ -404,8 +404,7 @@ Our team divided responsibilities based on expertise and interest to ensure effi
 - **Data Cleaning & Prep:** Excel/Python
 
 ## 📂 Additional Files
-- [`LMS.Dashboard.Report.zip`][RCHG.AdditionalFiles.zip](https://github.com/user-attachments/files/21456631/RCHG.AdditionalFiles.zip)
- – **Additional support documentation**, including the full dashboard report and related resources.
+- **[RCHG.AdditionalFiles.zip]**(https://github.com/user-attachments/files/21456631/RCHG.AdditionalFiles.zip)
 
 ---
 
