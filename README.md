@@ -134,12 +134,6 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 
 ---
 
-### 🔍 Next Steps
-- Automate **weekly data refresh** in Power BI.
-- Add **predictive modeling** for training completion trends.
-
----
-
 
 ## 📊 2. LMS Dashboard Analysis
 
@@ -217,4 +211,5 @@ Dashboards were built using **Tableau Public** with data on enrollments, last ac
 
 ---
 
-## 📂 Repository Structure
+### 🔍 Next Steps
+- Add **predictive modeling** for training completion trends.
