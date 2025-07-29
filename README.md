@@ -40,35 +40,71 @@ Prepare a clean, standardised LMS dataset enriched with employee details, ready 
   - `EnrollmentDate`, `CompletionDate`, `LastAccessDate`, `JoinedDate`.
 - Applied consistent **DD-MM-YYYY** format.
 
-#### **4. Derived Metrics and Flags**
-- Added **calculated columns**:
-  - `DaysSpent = CompletionDate − EnrollmentDate`
-  - `Enroll_minus_Join = EnrollmentDate − JoinedDate`  
-    → Positive = OK, Negative = Anomaly.
-  - `Days_LastAccess_vs_Completion = LastAccessDate − CompletionDate`.
-- **Flags Added**:
-  - `CourseBeforeEmployee` = TRUE if enrollment occurred before joining.
+### **4. Derived Metrics and Flags**
 
-#### 5. Validation and Export
-JoinedDate Integration (Excel):
-The JoinedDate field was imported from the Employee Info dataset into the main LMS dataset using the following Excel VLOOKUP formula:
-<img width="298" height="40" alt="image" src="https://github.com/user-attachments/assets/412b5d17-c9bc-460e-a25d-5beb8267886b" />
+As part of the data enrichment process, calculated columns and flag fields were added to support deeper insight generation and anomaly detection.
 
-This formula retrieves the corresponding JoinedDate (from column 5 of the EmployeeInfo sheet) by matching EmployeeID. The column was inserted to the right of IsMandatory for logical data grouping. Date formatting was standardized to DD-MM-YYYY.
+#### **Calculated Columns**
 
-Derived Columns (Python):
+- `DaysSpent = CompletionDate − EnrollmentDate`  
+  Indicates the number of days an employee took to complete a course.
 
-After merging the datasets, new analytical columns were created in Python to support insight generation and anomaly detection:
-<img width="595" height="152" alt="image" src="https://github.com/user-attachments/assets/69416201-667f-4180-93e3-f49e16a622ce" />
+- `Enroll_minus_Join = EnrollmentDate − JoinedDate`  
+  Measures the interval between joining the organisation and enrolling in a course.  
+  Used to derive the categorical status: `"OK"` or `"Anomaly"`.
 
-These transformations identified training records where courses were started before an employee joined the company and supported validation of engagement timelines.
+- `Days_LastAccess_vs_Completion = LastAccessDate − CompletionDate`  
+  Highlights post-completion engagement duration.
 
-Final Export:
-The cleaned and enriched datasets were saved as:
+#### **Flags Added**
 
-Final_Enriched_LMS_Dataset.xlsx
+- `CourseBeforeEmployee`  
+  Set to `TRUE` if the course was enrolled before the employee’s `JoinedDate`.
 
-These files were formatted for direct ingestion into Tableau and Power BI for further analytics and dashboard development.
+- `Join_vs_Enroll_Status`  
+  Returns `"OK"` if `Enroll_minus_Join ≥ 0`, otherwise `"Anomaly"`.
+
+> These fields were key in flagging inconsistent records (e.g., training before official employment) and helped QA the dataset for timeline integrity.
+
+---
+
+### **5. Validation and Export**
+
+#### **JoinedDate Integration (Excel)**
+
+The `JoinedDate` column was imported from the **Employee Info** dataset using the following Excel `VLOOKUP` formula:
+
+<img width="451" height="54" alt="image" src="https://github.com/user-attachments/assets/35ad0780-3cb4-4bfe-b5ca-eaea453f9851" />
+
+This formula retrieved the `JoinedDate` from column 5 of the `EmployeeInfo` sheet by matching on `EmployeeID`.
+
+The column was inserted immediately to the right of `IsMandatory` for logical grouping.
+
+All date values were standardised to **DD-MM-YYYY** format for compatibility with **Power BI** and **Tableau**.
+
+---
+
+### **Derived Columns (Python)**
+
+After integrating `JoinedDate`, additional analytical fields were created in Python to support validation and anomaly detection:
+
+<img width="955" height="245" alt="image" src="https://github.com/user-attachments/assets/eb774699-1c66-45b2-99a7-0fcaf1a6aa42" />
+
+
+These transformations were critical for:
+
+- Identifying invalid training records (e.g., courses taken before employment start).
+- Enabling insight into user behaviour timelines and drop-offs.
+
+---
+
+### **Final Export**
+
+The cleaned and enriched datasets were exported as:
+
+- `Final_Enriched_LMS_Dataset.xlsx`
+
+> These files are optimised for direct ingestion into **Power BI** and **Tableau**, enabling interactive analytics on compliance, engagement, and performance.
 
 #### **6. Notebook Automation**
 - Developed a **Google Colab script**:
