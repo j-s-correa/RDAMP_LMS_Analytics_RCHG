@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-The **RCHG LMS Analytics Project** aims to monitor and improve **training compliance**, **employee engagement**, and **performance** using enriched LMS datasets. The solution involves **data cleaning, integration, and preparation**, followed by **visual analytics dashboards in Tableau** and **predictive modeling techniques** to forecast training outcomes.
+The **RCHG LMS Analytics Project** aims to monitor and improve **training compliance**, **employee engagement**, and **performance** using enriched LMS datasets. The solution involves **data cleaning, integration, and preparation**, followed by **visual analytics dashboards in Tableau** and **predictive modelling techniques** to forecast training outcomes.
 
 ### The project helps RCHG to:
 - Ensure **mandatory training compliance**.
@@ -49,11 +49,26 @@ Prepare a clean, standardised LMS dataset enriched with employee details, ready 
 - **Flags Added**:
   - `CourseBeforeEmployee` = TRUE if enrollment occurred before joining.
 
-#### **5. Validation and Export**
-- Verified cleaned data for anomalies.
-- Exported final datasets for Power BI:
-  - `Final_Enriched_LMS_Dataset.xlsx`
-  - `Cleaned_RCHG_LMS_Dataset_For_PowerBI.xlsx`
+#### 5. Validation and Export
+JoinedDate Integration (Excel):
+The JoinedDate field was imported from the Employee Info dataset into the main LMS dataset using the following Excel VLOOKUP formula:
+<img width="298" height="40" alt="image" src="https://github.com/user-attachments/assets/412b5d17-c9bc-460e-a25d-5beb8267886b" />
+
+This formula retrieves the corresponding JoinedDate (from column 5 of the EmployeeInfo sheet) by matching EmployeeID. The column was inserted to the right of IsMandatory for logical data grouping. Date formatting was standardized to DD-MM-YYYY.
+
+Derived Columns (Python):
+
+After merging the datasets, new analytical columns were created in Python to support insight generation and anomaly detection:
+<img width="595" height="152" alt="image" src="https://github.com/user-attachments/assets/69416201-667f-4180-93e3-f49e16a622ce" />
+
+These transformations identified training records where courses were started before an employee joined the company and supported validation of engagement timelines.
+
+Final Export:
+The cleaned and enriched datasets were saved as:
+
+Final_Enriched_LMS_Dataset.xlsx
+
+These files were formatted for direct ingestion into Tableau and Power BI for further analytics and dashboard development.
 
 #### **6. Notebook Automation**
 - Developed a **Google Colab script**:
@@ -161,7 +176,7 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 - **Excel** → Data cleaning and transformation.
 - **Google Colab** → Notebook-based pipeline for data prep.
 
-<img width="532" height="511" alt="image" src="https://github.com/user-attachments/assets/6d3a6366-11d8-4800-9de6-2cc4a688b85a" />
+<img width="559" height="758" alt="image" src="https://github.com/user-attachments/assets/7eb0bba5-9b99-44cc-b015-4388cf50728c" />
 
 
 ## How to Use
