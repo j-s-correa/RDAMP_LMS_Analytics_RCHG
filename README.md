@@ -40,7 +40,7 @@ Prepare a clean, standardised LMS dataset enriched with employee details, ready 
   - `EnrollmentDate`, `CompletionDate`, `LastAccessDate`, `JoinedDate`.
 - Applied consistent **DD-MM-YYYY** format.
 
-### **4. Derived Metrics and Flags**
+#### **4. Derived Metrics and Flags**
 
 As part of the data enrichment process, calculated columns and flag fields were added to support deeper insight generation and anomaly detection.
 
@@ -212,10 +212,8 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 - **Excel** → Data cleaning and transformation.
 - **Google Colab** → Notebook-based pipeline for data prep.
 
-<img width="744" height="784" alt="image" src="https://github.com/user-attachments/assets/538fcdb5-f97d-4412-993f-ce94fa77134b" />
+<img width="844" height="579" alt="image" src="https://github.com/user-attachments/assets/6a045891-f76d-4782-a3a8-9ec29b9cb4fe" />
 <img width="870" height="660" alt="image" src="https://github.com/user-attachments/assets/9dc61d87-70db-4daa-93d8-d41bbe16b83c" />
-
-
 
 
 ## How to Use
