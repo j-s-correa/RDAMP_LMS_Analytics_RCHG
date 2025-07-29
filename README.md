@@ -109,8 +109,8 @@ The cleaned and enriched datasets were exported as:
 #### **6. Notebook Automation**
 - Developed a **Google Colab script**:
   - Mount Google Drive & import libraries (pandas, numpy, openpyxl).
-  - Load dataset → Remove duplicates → Standardize names.
-  - Export cleaned dataset for Power BI.
+  - Load dataset → Remove duplicates → Standardise names.
+  - Export cleaned dataset for Power BI/Tableau.
 
 ---
 
@@ -119,7 +119,7 @@ The cleaned and enriched datasets were exported as:
 ✔ 15 incorrect entries corrected  
 ✔ Added metrics for course duration and anomalies  
 ✔ Flags for employees enrolled before joining  
-✔ Exported Power BI-ready Excel files  
+✔ Exported Tableau/Power BI-ready Excel files  
 
 ---
 
@@ -219,7 +219,7 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 
 
 ## How to Use
-1. Download the **cleaned dataset** from this repo.
+1. Download the **cleaned dataset** from this repo. [Final_Enriched_LMS_Dataset.xlsx](https://github.com/user-attachments/files/21478546/Final_Enriched_LMS_Dataset.xlsx)
 2. Open the **Power BI report** or **Tableau workbook**.
 3. Connect data → Explore dashboards.
 
