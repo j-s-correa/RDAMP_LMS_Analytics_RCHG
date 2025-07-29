@@ -68,7 +68,7 @@ As part of the data enrichment process, calculated columns and flag fields were 
 
 ---
 
-### **5. Validation and Export**
+#### **5. Validation and Export**
 
 #### **JoinedDate Integration (Excel)**
 
@@ -84,7 +84,7 @@ All date values were standardised to **DD-MM-YYYY** format for compatibility wit
 
 ---
 
-### **Derived Columns (Python)**
+#### **Derived Columns (Python)**
 
 After integrating `JoinedDate`, additional analytical fields were created in Python to support validation and anomaly detection:
 
@@ -98,7 +98,7 @@ These transformations were critical for:
 
 ---
 
-### **Final Export**
+#### **Final Export**
 
 The cleaned and enriched datasets were exported as:
 
@@ -212,7 +212,10 @@ The dashboards are designed to provide insights into **Compliance & Training Sum
 - **Excel** → Data cleaning and transformation.
 - **Google Colab** → Notebook-based pipeline for data prep.
 
-<img width="559" height="758" alt="image" src="https://github.com/user-attachments/assets/7eb0bba5-9b99-44cc-b015-4388cf50728c" />
+<img width="744" height="784" alt="image" src="https://github.com/user-attachments/assets/538fcdb5-f97d-4412-993f-ce94fa77134b" />
+<img width="870" height="660" alt="image" src="https://github.com/user-attachments/assets/9dc61d87-70db-4daa-93d8-d41bbe16b83c" />
+
+
 
 
 ## How to Use
